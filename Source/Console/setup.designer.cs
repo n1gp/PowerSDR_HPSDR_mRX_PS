@@ -230,6 +230,8 @@
             this.comboFRSRegion = new System.Windows.Forms.ComboBoxTS();
             this.chkGeneralUseSi570 = new System.Windows.Forms.CheckBoxTS();
             this.grpGeneralModel = new System.Windows.Forms.GroupBoxTS();
+            this.radGenModelCharly25LC = new System.Windows.Forms.RadioButtonTS();
+            this.radGenModelHAMlab = new System.Windows.Forms.RadioButtonTS();
             this.radGenModelANAN10E = new System.Windows.Forms.RadioButtonTS();
             this.radGenModelANAN100B = new System.Windows.Forms.RadioButtonTS();
             this.radGenModelOrion = new System.Windows.Forms.RadioButtonTS();
@@ -1721,6 +1723,59 @@
             this.chkPA12 = new System.Windows.Forms.CheckBoxTS();
             this.chkPA10 = new System.Windows.Forms.CheckBoxTS();
             this.chkPA6 = new System.Windows.Forms.CheckBoxTS();
+            this.grpCHARLY25LCPAGainByBand = new System.Windows.Forms.GroupBoxTS();
+            this.lblCHARLY25LCPAGainByBandVHF13 = new System.Windows.Forms.LabelTS();
+            this.chkCHARLY25LCPANewCal = new System.Windows.Forms.CheckBoxTS();
+            this.udCHARLY25LCPAGainVHF13 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF12 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF12 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF11 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF11 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF10 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF10 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF9 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF9 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF8 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF8 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF7 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF7 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF6 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF6 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF5 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF5 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF4 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF4 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF3 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF3 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF2 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF2 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF1 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF1 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBandVHF0 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGainVHF0 = new System.Windows.Forms.NumericUpDownTS();
+            this.udCHARLY25LCPAGain6 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand6 = new System.Windows.Forms.LabelTS();
+            this.btnCHARLY25LCPAGainReset = new System.Windows.Forms.ButtonTS();
+            this.lblCHARLY25LCPAGainByBand10 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain10 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand12 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain12 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand15 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain15 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand17 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain17 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand20 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain20 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand30 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain30 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand40 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain40 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand60 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain60 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand80 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain80 = new System.Windows.Forms.NumericUpDownTS();
+            this.lblCHARLY25LCPAGainByBand160 = new System.Windows.Forms.LabelTS();
+            this.udCHARLY25LCPAGain160 = new System.Windows.Forms.NumericUpDownTS();
             this.grpPAGainByBand = new System.Windows.Forms.GroupBoxTS();
             this.lblPAGainByBandVHF13 = new System.Windows.Forms.LabelTS();
             this.chkPANewCal = new System.Windows.Forms.CheckBoxTS();
@@ -1902,7 +1957,6 @@
             this.udANAN100PAGainVHF5 = new System.Windows.Forms.NumericUpDownTS();
             this.labelTS188 = new System.Windows.Forms.LabelTS();
             this.udANAN100PAGainVHF4 = new System.Windows.Forms.NumericUpDownTS();
-            this.labelTS189 = new System.Windows.Forms.LabelTS();
             this.udANAN100PAGainVHF3 = new System.Windows.Forms.NumericUpDownTS();
             this.labelTS190 = new System.Windows.Forms.LabelTS();
             this.udANAN100PAGainVHF2 = new System.Windows.Forms.NumericUpDownTS();
@@ -1933,6 +1987,7 @@
             this.udANAN100PAGain80 = new System.Windows.Forms.NumericUpDownTS();
             this.labelTS203 = new System.Windows.Forms.LabelTS();
             this.udANAN100PAGain160 = new System.Windows.Forms.NumericUpDownTS();
+            this.labelTS189 = new System.Windows.Forms.LabelTS();
             this.grpOrionPAGainByBand = new System.Windows.Forms.GroupBoxTS();
             this.labelTS277 = new System.Windows.Forms.LabelTS();
             this.checkBoxTS7 = new System.Windows.Forms.CheckBoxTS();
@@ -2560,6 +2615,7 @@
             this.panelTS4 = new System.Windows.Forms.PanelTS();
             this.radioButtonTS5 = new System.Windows.Forms.RadioButtonTS();
             this.radioButtonTS6 = new System.Windows.Forms.RadioButtonTS();
+            this.numericUpDownTS40 = new System.Windows.Forms.NumericUpDownTS();
             tpAlexAntCtrl = new System.Windows.Forms.TabPage();
             grpKBCW = new System.Windows.Forms.GroupBoxTS();
             tpAlexAntCtrl.SuspendLayout();
@@ -3028,6 +3084,32 @@
             this.tpGainByBand.SuspendLayout();
             this.panelAutoPACalibrate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.udPACalPower)).BeginInit();
+            this.grpCHARLY25LCPAGainByBand.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain160)).BeginInit();
             this.grpPAGainByBand.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.udPAGainVHF13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.udPAGainVHF12)).BeginInit();
@@ -3353,6 +3435,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTS35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTS36)).BeginInit();
             this.panelTS4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTS40)).BeginInit();
             this.SuspendLayout();
             // 
             // tpAlexAntCtrl
@@ -6367,6 +6450,8 @@
             // 
             // grpGeneralModel
             // 
+            this.grpGeneralModel.Controls.Add(this.radGenModelCharly25LC);
+            this.grpGeneralModel.Controls.Add(this.radGenModelHAMlab);
             this.grpGeneralModel.Controls.Add(this.radGenModelANAN10E);
             this.grpGeneralModel.Controls.Add(this.radGenModelANAN100B);
             this.grpGeneralModel.Controls.Add(this.radGenModelOrion);
@@ -6386,10 +6471,32 @@
             this.grpGeneralModel.TabStop = false;
             this.grpGeneralModel.Text = "Radio Model";
             // 
+            // radGenModelCharly25LC
+            // 
+            this.radGenModelCharly25LC.Image = null;
+            this.radGenModelCharly25LC.Location = new System.Drawing.Point(10, 135);
+            this.radGenModelCharly25LC.Name = "radGenModelCharly25LC";
+            this.radGenModelCharly25LC.Size = new System.Drawing.Size(105, 24);
+            this.radGenModelCharly25LC.TabIndex = 14;
+            this.radGenModelCharly25LC.Text = "CHARLY 25LC";
+            this.radGenModelCharly25LC.UseVisualStyleBackColor = true;
+            this.radGenModelCharly25LC.CheckedChanged += new System.EventHandler(this.radGenModelCharly25LC_CheckedChanged);
+            // 
+            // radGenModelHAMlab
+            // 
+            this.radGenModelHAMlab.Image = null;
+            this.radGenModelHAMlab.Location = new System.Drawing.Point(10, 155);
+            this.radGenModelHAMlab.Name = "radGenModelHAMlab";
+            this.radGenModelHAMlab.Size = new System.Drawing.Size(88, 24);
+            this.radGenModelHAMlab.TabIndex = 13;
+            this.radGenModelHAMlab.Text = "HAMlab";
+            this.radGenModelHAMlab.UseVisualStyleBackColor = true;
+            this.radGenModelHAMlab.CheckedChanged += new System.EventHandler(this.radGenModelHamlab_CheckedChanged);
+            // 
             // radGenModelANAN10E
             // 
             this.radGenModelANAN10E.Image = null;
-            this.radGenModelANAN10E.Location = new System.Drawing.Point(90, 68);
+            this.radGenModelANAN10E.Location = new System.Drawing.Point(90, 55);
             this.radGenModelANAN10E.Name = "radGenModelANAN10E";
             this.radGenModelANAN10E.Size = new System.Drawing.Size(44, 24);
             this.radGenModelANAN10E.TabIndex = 11;
@@ -6400,7 +6507,7 @@
             // radGenModelANAN100B
             // 
             this.radGenModelANAN100B.Image = null;
-            this.radGenModelANAN100B.Location = new System.Drawing.Point(90, 92);
+            this.radGenModelANAN100B.Location = new System.Drawing.Point(90, 75);
             this.radGenModelANAN100B.Name = "radGenModelANAN100B";
             this.radGenModelANAN100B.Size = new System.Drawing.Size(50, 24);
             this.radGenModelANAN100B.TabIndex = 10;
@@ -6411,7 +6518,7 @@
             // radGenModelOrion
             // 
             this.radGenModelOrion.Image = null;
-            this.radGenModelOrion.Location = new System.Drawing.Point(10, 140);
+            this.radGenModelOrion.Location = new System.Drawing.Point(10, 115);
             this.radGenModelOrion.Name = "radGenModelOrion";
             this.radGenModelOrion.Size = new System.Drawing.Size(88, 24);
             this.radGenModelOrion.TabIndex = 9;
@@ -6422,7 +6529,7 @@
             // radGenModelANAN100D
             // 
             this.radGenModelANAN100D.Image = null;
-            this.radGenModelANAN100D.Location = new System.Drawing.Point(10, 116);
+            this.radGenModelANAN100D.Location = new System.Drawing.Point(10, 95);
             this.radGenModelANAN100D.Name = "radGenModelANAN100D";
             this.radGenModelANAN100D.Size = new System.Drawing.Size(88, 24);
             this.radGenModelANAN100D.TabIndex = 8;
@@ -6433,7 +6540,7 @@
             // radGenModelANAN100
             // 
             this.radGenModelANAN100.Image = null;
-            this.radGenModelANAN100.Location = new System.Drawing.Point(10, 92);
+            this.radGenModelANAN100.Location = new System.Drawing.Point(10, 75);
             this.radGenModelANAN100.Name = "radGenModelANAN100";
             this.radGenModelANAN100.Size = new System.Drawing.Size(88, 24);
             this.radGenModelANAN100.TabIndex = 7;
@@ -6444,7 +6551,7 @@
             // radGenModelANAN10
             // 
             this.radGenModelANAN10.Image = null;
-            this.radGenModelANAN10.Location = new System.Drawing.Point(10, 68);
+            this.radGenModelANAN10.Location = new System.Drawing.Point(10, 55);
             this.radGenModelANAN10.Name = "radGenModelANAN10";
             this.radGenModelANAN10.Size = new System.Drawing.Size(70, 24);
             this.radGenModelANAN10.TabIndex = 6;
@@ -6455,7 +6562,7 @@
             // radGenModelHermes
             // 
             this.radGenModelHermes.Image = null;
-            this.radGenModelHermes.Location = new System.Drawing.Point(10, 44);
+            this.radGenModelHermes.Location = new System.Drawing.Point(10, 35);
             this.radGenModelHermes.Name = "radGenModelHermes";
             this.radGenModelHermes.Size = new System.Drawing.Size(88, 24);
             this.radGenModelHermes.TabIndex = 5;
@@ -6466,7 +6573,7 @@
             // radGenModelHPSDR
             // 
             this.radGenModelHPSDR.Image = null;
-            this.radGenModelHPSDR.Location = new System.Drawing.Point(10, 20);
+            this.radGenModelHPSDR.Location = new System.Drawing.Point(10, 15);
             this.radGenModelHPSDR.Name = "radGenModelHPSDR";
             this.radGenModelHPSDR.Size = new System.Drawing.Size(88, 24);
             this.radGenModelHPSDR.TabIndex = 4;
@@ -27611,6 +27718,7 @@
             this.tpGainByBand.BackColor = System.Drawing.SystemColors.Control;
             this.tpGainByBand.Controls.Add(this.chkAutoPACalibrate);
             this.tpGainByBand.Controls.Add(this.panelAutoPACalibrate);
+            this.tpGainByBand.Controls.Add(this.grpCHARLY25LCPAGainByBand);
             this.tpGainByBand.Controls.Add(this.grpPAGainByBand);
             this.tpGainByBand.Controls.Add(this.grpANAN10PAGainByBand);
             this.tpGainByBand.Controls.Add(this.grpANAN100BPAGainByBand);
@@ -27839,6 +27947,1090 @@
             this.chkPA6.Size = new System.Drawing.Size(36, 16);
             this.chkPA6.TabIndex = 84;
             this.chkPA6.Text = "6";
+            // 
+            // grpCHARLY25LCPAGainByBand
+            // 
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF13);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.chkCHARLY25LCPANewCal);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF13);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF12);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF12);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF11);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF11);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF10);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF10);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF9);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF9);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF8);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF8);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF7);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF7);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF6);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF6);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF5);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF5);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF4);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF4);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF3);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF3);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF2);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF2);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF1);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF1);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBandVHF0);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGainVHF0);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain6);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand6);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.btnCHARLY25LCPAGainReset);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand10);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain10);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand12);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain12);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand15);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain15);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand17);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain17);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand20);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain20);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand30);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain30);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand40);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain40);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand60);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain60);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand80);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain80);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.lblCHARLY25LCPAGainByBand160);
+            this.grpCHARLY25LCPAGainByBand.Controls.Add(this.udCHARLY25LCPAGain160);
+            this.grpCHARLY25LCPAGainByBand.Location = new System.Drawing.Point(8, 8);
+            this.grpCHARLY25LCPAGainByBand.Name = "grpCHARLY25LCPAGainByBand";
+            this.grpCHARLY25LCPAGainByBand.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.grpCHARLY25LCPAGainByBand.Size = new System.Drawing.Size(387, 302);
+            this.grpCHARLY25LCPAGainByBand.TabIndex = 115;
+            this.grpCHARLY25LCPAGainByBand.TabStop = false;
+            this.grpCHARLY25LCPAGainByBand.Text = "Gain By Band (dB) Charly 25LC / HAMlab";
+            // 
+            // lblCHARLY25LCPAGainByBandVHF13
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF13.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF13.Location = new System.Drawing.Point(254, 168);
+            this.lblCHARLY25LCPAGainByBandVHF13.Name = "lblCHARLY25LCPAGainByBandVHF13";
+            this.lblCHARLY25LCPAGainByBandVHF13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF13.Size = new System.Drawing.Size(43, 16);
+            this.lblCHARLY25LCPAGainByBandVHF13.TabIndex = 114;
+            this.lblCHARLY25LCPAGainByBandVHF13.Text = "VHF13:";
+            this.lblCHARLY25LCPAGainByBandVHF13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // chkCHARLY25LCPANewCal
+            // 
+            this.chkCHARLY25LCPANewCal.Image = null;
+            this.chkCHARLY25LCPANewCal.Location = new System.Drawing.Point(262, 262);
+            this.chkCHARLY25LCPANewCal.Name = "chkCHARLY25LCPANewCal";
+            this.chkCHARLY25LCPANewCal.Size = new System.Drawing.Size(120, 32);
+            this.chkCHARLY25LCPANewCal.TabIndex = 83;
+            this.chkCHARLY25LCPANewCal.Text = "Use Advanced Calibration Routine";
+            this.chkCHARLY25LCPANewCal.Visible = false;
+            this.chkCHARLY25LCPANewCal.CheckedChanged += new System.EventHandler(this.chkCHARLY25LCPANewCal_CheckedChanged);
+            // 
+            // udCHARLY25LCPAGainVHF13
+            // 
+            this.udCHARLY25LCPAGainVHF13.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF13.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF13.Location = new System.Drawing.Point(299, 168);
+            this.udCHARLY25LCPAGainVHF13.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF13.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF13.Name = "udCHARLY25LCPAGainVHF13";
+            this.udCHARLY25LCPAGainVHF13.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF13.TabIndex = 113;
+            this.udCHARLY25LCPAGainVHF13.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF13.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF12
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF12.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF12.Location = new System.Drawing.Point(254, 144);
+            this.lblCHARLY25LCPAGainByBandVHF12.Name = "lblCHARLY25LCPAGainByBandVHF12";
+            this.lblCHARLY25LCPAGainByBandVHF12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF12.Size = new System.Drawing.Size(43, 16);
+            this.lblCHARLY25LCPAGainByBandVHF12.TabIndex = 112;
+            this.lblCHARLY25LCPAGainByBandVHF12.Text = "VHF12:";
+            this.lblCHARLY25LCPAGainByBandVHF12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // udCHARLY25LCPAGainVHF12
+            // 
+            this.udCHARLY25LCPAGainVHF12.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF12.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF12.Location = new System.Drawing.Point(299, 144);
+            this.udCHARLY25LCPAGainVHF12.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF12.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF12.Name = "udCHARLY25LCPAGainVHF12";
+            this.udCHARLY25LCPAGainVHF12.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF12.TabIndex = 111;
+            this.udCHARLY25LCPAGainVHF12.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF12.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF11
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF11.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF11.Location = new System.Drawing.Point(254, 120);
+            this.lblCHARLY25LCPAGainByBandVHF11.Name = "lblCHARLY25LCPAGainByBandVHF11";
+            this.lblCHARLY25LCPAGainByBandVHF11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF11.Size = new System.Drawing.Size(43, 16);
+            this.lblCHARLY25LCPAGainByBandVHF11.TabIndex = 110;
+            this.lblCHARLY25LCPAGainByBandVHF11.Text = "VHF11:";
+            this.lblCHARLY25LCPAGainByBandVHF11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // udCHARLY25LCPAGainVHF11
+            // 
+            this.udCHARLY25LCPAGainVHF11.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF11.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF11.Location = new System.Drawing.Point(299, 120);
+            this.udCHARLY25LCPAGainVHF11.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF11.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF11.Name = "udCHARLY25LCPAGainVHF11";
+            this.udCHARLY25LCPAGainVHF11.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF11.TabIndex = 109;
+            this.udCHARLY25LCPAGainVHF11.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF11.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF10
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF10.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF10.Location = new System.Drawing.Point(254, 96);
+            this.lblCHARLY25LCPAGainByBandVHF10.Name = "lblCHARLY25LCPAGainByBandVHF10";
+            this.lblCHARLY25LCPAGainByBandVHF10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF10.Size = new System.Drawing.Size(43, 16);
+            this.lblCHARLY25LCPAGainByBandVHF10.TabIndex = 108;
+            this.lblCHARLY25LCPAGainByBandVHF10.Text = "VHF10:";
+            this.lblCHARLY25LCPAGainByBandVHF10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // udCHARLY25LCPAGainVHF10
+            // 
+            this.udCHARLY25LCPAGainVHF10.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF10.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF10.Location = new System.Drawing.Point(299, 96);
+            this.udCHARLY25LCPAGainVHF10.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF10.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF10.Name = "udCHARLY25LCPAGainVHF10";
+            this.udCHARLY25LCPAGainVHF10.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF10.TabIndex = 107;
+            this.udCHARLY25LCPAGainVHF10.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF10.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF9
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF9.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF9.Location = new System.Drawing.Point(259, 72);
+            this.lblCHARLY25LCPAGainByBandVHF9.Name = "lblCHARLY25LCPAGainByBandVHF9";
+            this.lblCHARLY25LCPAGainByBandVHF9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF9.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF9.TabIndex = 106;
+            this.lblCHARLY25LCPAGainByBandVHF9.Text = "VHF9:";
+            this.lblCHARLY25LCPAGainByBandVHF9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF9
+            // 
+            this.udCHARLY25LCPAGainVHF9.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF9.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF9.Location = new System.Drawing.Point(299, 72);
+            this.udCHARLY25LCPAGainVHF9.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF9.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF9.Name = "udCHARLY25LCPAGainVHF9";
+            this.udCHARLY25LCPAGainVHF9.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF9.TabIndex = 105;
+            this.udCHARLY25LCPAGainVHF9.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF9.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF8
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF8.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF8.Location = new System.Drawing.Point(259, 48);
+            this.lblCHARLY25LCPAGainByBandVHF8.Name = "lblCHARLY25LCPAGainByBandVHF8";
+            this.lblCHARLY25LCPAGainByBandVHF8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF8.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF8.TabIndex = 104;
+            this.lblCHARLY25LCPAGainByBandVHF8.Text = "VHF8:";
+            this.lblCHARLY25LCPAGainByBandVHF8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF8
+            // 
+            this.udCHARLY25LCPAGainVHF8.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF8.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF8.Location = new System.Drawing.Point(299, 48);
+            this.udCHARLY25LCPAGainVHF8.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF8.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF8.Name = "udCHARLY25LCPAGainVHF8";
+            this.udCHARLY25LCPAGainVHF8.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF8.TabIndex = 103;
+            this.udCHARLY25LCPAGainVHF8.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF8.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF7
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF7.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF7.Location = new System.Drawing.Point(259, 24);
+            this.lblCHARLY25LCPAGainByBandVHF7.Name = "lblCHARLY25LCPAGainByBandVHF7";
+            this.lblCHARLY25LCPAGainByBandVHF7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF7.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF7.TabIndex = 102;
+            this.lblCHARLY25LCPAGainByBandVHF7.Text = "VHF7:";
+            this.lblCHARLY25LCPAGainByBandVHF7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF7
+            // 
+            this.udCHARLY25LCPAGainVHF7.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF7.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF7.Location = new System.Drawing.Point(299, 24);
+            this.udCHARLY25LCPAGainVHF7.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF7.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF7.Name = "udCHARLY25LCPAGainVHF7";
+            this.udCHARLY25LCPAGainVHF7.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF7.TabIndex = 101;
+            this.udCHARLY25LCPAGainVHF7.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF7.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF6
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF6.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF6.Location = new System.Drawing.Point(147, 167);
+            this.lblCHARLY25LCPAGainByBandVHF6.Name = "lblCHARLY25LCPAGainByBandVHF6";
+            this.lblCHARLY25LCPAGainByBandVHF6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF6.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF6.TabIndex = 100;
+            this.lblCHARLY25LCPAGainByBandVHF6.Text = "VHF6:";
+            this.lblCHARLY25LCPAGainByBandVHF6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF6
+            // 
+            this.udCHARLY25LCPAGainVHF6.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF6.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF6.Location = new System.Drawing.Point(187, 167);
+            this.udCHARLY25LCPAGainVHF6.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF6.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF6.Name = "udCHARLY25LCPAGainVHF6";
+            this.udCHARLY25LCPAGainVHF6.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF6.TabIndex = 99;
+            this.udCHARLY25LCPAGainVHF6.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF6.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF5
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF5.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF5.Location = new System.Drawing.Point(147, 143);
+            this.lblCHARLY25LCPAGainByBandVHF5.Name = "lblCHARLY25LCPAGainByBandVHF5";
+            this.lblCHARLY25LCPAGainByBandVHF5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF5.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF5.TabIndex = 98;
+            this.lblCHARLY25LCPAGainByBandVHF5.Text = "VHF5:";
+            this.lblCHARLY25LCPAGainByBandVHF5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF5
+            // 
+            this.udCHARLY25LCPAGainVHF5.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF5.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF5.Location = new System.Drawing.Point(187, 143);
+            this.udCHARLY25LCPAGainVHF5.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF5.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF5.Name = "udCHARLY25LCPAGainVHF5";
+            this.udCHARLY25LCPAGainVHF5.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF5.TabIndex = 97;
+            this.udCHARLY25LCPAGainVHF5.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF5.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF4
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF4.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF4.Location = new System.Drawing.Point(147, 120);
+            this.lblCHARLY25LCPAGainByBandVHF4.Name = "lblCHARLY25LCPAGainByBandVHF4";
+            this.lblCHARLY25LCPAGainByBandVHF4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF4.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF4.TabIndex = 96;
+            this.lblCHARLY25LCPAGainByBandVHF4.Text = "VHF4:";
+            this.lblCHARLY25LCPAGainByBandVHF4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF4
+            // 
+            this.udCHARLY25LCPAGainVHF4.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF4.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF4.Location = new System.Drawing.Point(187, 120);
+            this.udCHARLY25LCPAGainVHF4.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF4.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF4.Name = "udCHARLY25LCPAGainVHF4";
+            this.udCHARLY25LCPAGainVHF4.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF4.TabIndex = 95;
+            this.udCHARLY25LCPAGainVHF4.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF4.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF3
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF3.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF3.Location = new System.Drawing.Point(147, 96);
+            this.lblCHARLY25LCPAGainByBandVHF3.Name = "lblCHARLY25LCPAGainByBandVHF3";
+            this.lblCHARLY25LCPAGainByBandVHF3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF3.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF3.TabIndex = 94;
+            this.lblCHARLY25LCPAGainByBandVHF3.Text = "VHF3:";
+            this.lblCHARLY25LCPAGainByBandVHF3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF3
+            // 
+            this.udCHARLY25LCPAGainVHF3.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF3.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF3.Location = new System.Drawing.Point(187, 96);
+            this.udCHARLY25LCPAGainVHF3.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF3.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF3.Name = "udCHARLY25LCPAGainVHF3";
+            this.udCHARLY25LCPAGainVHF3.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF3.TabIndex = 93;
+            this.udCHARLY25LCPAGainVHF3.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF3.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF2
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF2.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF2.Location = new System.Drawing.Point(147, 72);
+            this.lblCHARLY25LCPAGainByBandVHF2.Name = "lblCHARLY25LCPAGainByBandVHF2";
+            this.lblCHARLY25LCPAGainByBandVHF2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF2.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF2.TabIndex = 92;
+            this.lblCHARLY25LCPAGainByBandVHF2.Text = "VHF2:";
+            this.lblCHARLY25LCPAGainByBandVHF2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF2
+            // 
+            this.udCHARLY25LCPAGainVHF2.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF2.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF2.Location = new System.Drawing.Point(187, 72);
+            this.udCHARLY25LCPAGainVHF2.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF2.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF2.Name = "udCHARLY25LCPAGainVHF2";
+            this.udCHARLY25LCPAGainVHF2.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF2.TabIndex = 91;
+            this.udCHARLY25LCPAGainVHF2.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF2.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF1
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF1.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF1.Location = new System.Drawing.Point(147, 48);
+            this.lblCHARLY25LCPAGainByBandVHF1.Name = "lblCHARLY25LCPAGainByBandVHF1";
+            this.lblCHARLY25LCPAGainByBandVHF1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF1.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF1.TabIndex = 90;
+            this.lblCHARLY25LCPAGainByBandVHF1.Text = "VHF1:";
+            this.lblCHARLY25LCPAGainByBandVHF1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGainVHF1
+            // 
+            this.udCHARLY25LCPAGainVHF1.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF1.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF1.Location = new System.Drawing.Point(187, 48);
+            this.udCHARLY25LCPAGainVHF1.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF1.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF1.Name = "udCHARLY25LCPAGainVHF1";
+            this.udCHARLY25LCPAGainVHF1.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF1.TabIndex = 89;
+            this.udCHARLY25LCPAGainVHF1.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF1.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBandVHF0
+            // 
+            this.lblCHARLY25LCPAGainByBandVHF0.Image = null;
+            this.lblCHARLY25LCPAGainByBandVHF0.Location = new System.Drawing.Point(147, 24);
+            this.lblCHARLY25LCPAGainByBandVHF0.Name = "lblCHARLY25LCPAGainByBandVHF0";
+            this.lblCHARLY25LCPAGainByBandVHF0.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBandVHF0.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBandVHF0.TabIndex = 88;
+            this.lblCHARLY25LCPAGainByBandVHF0.Text = "VHF0:";
+            this.lblCHARLY25LCPAGainByBandVHF0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // udCHARLY25LCPAGainVHF0
+            // 
+            this.udCHARLY25LCPAGainVHF0.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGainVHF0.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF0.Location = new System.Drawing.Point(187, 24);
+            this.udCHARLY25LCPAGainVHF0.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF0.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGainVHF0.Name = "udCHARLY25LCPAGainVHF0";
+            this.udCHARLY25LCPAGainVHF0.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGainVHF0.TabIndex = 87;
+            this.udCHARLY25LCPAGainVHF0.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGainVHF0.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // udCHARLY25LCPAGain6
+            // 
+            this.udCHARLY25LCPAGain6.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain6.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain6.Location = new System.Drawing.Point(56, 264);
+            this.udCHARLY25LCPAGain6.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain6.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain6.Name = "udCHARLY25LCPAGain6";
+            this.udCHARLY25LCPAGain6.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain6.TabIndex = 86;
+            this.udCHARLY25LCPAGain6.Value = new decimal(new int[] {
+            60,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain6.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand6
+            // 
+            this.lblCHARLY25LCPAGainByBand6.Image = null;
+            this.lblCHARLY25LCPAGainByBand6.Location = new System.Drawing.Point(26, 264);
+            this.lblCHARLY25LCPAGainByBand6.Name = "lblCHARLY25LCPAGainByBand6";
+            this.lblCHARLY25LCPAGainByBand6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand6.Size = new System.Drawing.Size(24, 16);
+            this.lblCHARLY25LCPAGainByBand6.TabIndex = 85;
+            this.lblCHARLY25LCPAGainByBand6.Text = "6m:";
+            this.lblCHARLY25LCPAGainByBand6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCHARLY25LCPAGainReset
+            // 
+            this.btnCHARLY25LCPAGainReset.Image = null;
+            this.btnCHARLY25LCPAGainReset.Location = new System.Drawing.Point(187, 264);
+            this.btnCHARLY25LCPAGainReset.Name = "btnCHARLY25LCPAGainReset";
+            this.btnCHARLY25LCPAGainReset.Size = new System.Drawing.Size(48, 23);
+            this.btnCHARLY25LCPAGainReset.TabIndex = 21;
+            this.btnCHARLY25LCPAGainReset.Text = "Reset";
+            this.toolTip1.SetToolTip(this.btnCHARLY25LCPAGainReset, "Reset all Gain values to the default.");
+            this.btnCHARLY25LCPAGainReset.Click += new System.EventHandler(this.btnPAGainReset_Click);
+            // 
+            // lblCHARLY25LCPAGainByBand10
+            // 
+            this.lblCHARLY25LCPAGainByBand10.Image = null;
+            this.lblCHARLY25LCPAGainByBand10.Location = new System.Drawing.Point(16, 240);
+            this.lblCHARLY25LCPAGainByBand10.Name = "lblCHARLY25LCPAGainByBand10";
+            this.lblCHARLY25LCPAGainByBand10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand10.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand10.TabIndex = 19;
+            this.lblCHARLY25LCPAGainByBand10.Text = "10m:";
+            this.lblCHARLY25LCPAGainByBand10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain10
+            // 
+            this.udCHARLY25LCPAGain10.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain10.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain10.Location = new System.Drawing.Point(56, 240);
+            this.udCHARLY25LCPAGain10.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain10.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain10.Name = "udCHARLY25LCPAGain10";
+            this.udCHARLY25LCPAGain10.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain10.TabIndex = 18;
+            this.udCHARLY25LCPAGain10.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain10.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand12
+            // 
+            this.lblCHARLY25LCPAGainByBand12.Image = null;
+            this.lblCHARLY25LCPAGainByBand12.Location = new System.Drawing.Point(16, 216);
+            this.lblCHARLY25LCPAGainByBand12.Name = "lblCHARLY25LCPAGainByBand12";
+            this.lblCHARLY25LCPAGainByBand12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand12.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand12.TabIndex = 17;
+            this.lblCHARLY25LCPAGainByBand12.Text = "12m:";
+            this.lblCHARLY25LCPAGainByBand12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain12
+            // 
+            this.udCHARLY25LCPAGain12.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain12.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain12.Location = new System.Drawing.Point(56, 216);
+            this.udCHARLY25LCPAGain12.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain12.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain12.Name = "udCHARLY25LCPAGain12";
+            this.udCHARLY25LCPAGain12.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain12.TabIndex = 16;
+            this.udCHARLY25LCPAGain12.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain12.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand15
+            // 
+            this.lblCHARLY25LCPAGainByBand15.Image = null;
+            this.lblCHARLY25LCPAGainByBand15.Location = new System.Drawing.Point(16, 192);
+            this.lblCHARLY25LCPAGainByBand15.Name = "lblCHARLY25LCPAGainByBand15";
+            this.lblCHARLY25LCPAGainByBand15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand15.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand15.TabIndex = 15;
+            this.lblCHARLY25LCPAGainByBand15.Text = "15m:";
+            this.lblCHARLY25LCPAGainByBand15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain15
+            // 
+            this.udCHARLY25LCPAGain15.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain15.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain15.Location = new System.Drawing.Point(56, 192);
+            this.udCHARLY25LCPAGain15.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain15.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain15.Name = "udCHARLY25LCPAGain15";
+            this.udCHARLY25LCPAGain15.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain15.TabIndex = 14;
+            this.udCHARLY25LCPAGain15.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain15.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand17
+            // 
+            this.lblCHARLY25LCPAGainByBand17.Image = null;
+            this.lblCHARLY25LCPAGainByBand17.Location = new System.Drawing.Point(16, 168);
+            this.lblCHARLY25LCPAGainByBand17.Name = "lblCHARLY25LCPAGainByBand17";
+            this.lblCHARLY25LCPAGainByBand17.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand17.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand17.TabIndex = 13;
+            this.lblCHARLY25LCPAGainByBand17.Text = "17m:";
+            this.lblCHARLY25LCPAGainByBand17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain17
+            // 
+            this.udCHARLY25LCPAGain17.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain17.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain17.Location = new System.Drawing.Point(56, 168);
+            this.udCHARLY25LCPAGain17.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain17.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain17.Name = "udCHARLY25LCPAGain17";
+            this.udCHARLY25LCPAGain17.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain17.TabIndex = 12;
+            this.udCHARLY25LCPAGain17.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain17.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand20
+            // 
+            this.lblCHARLY25LCPAGainByBand20.Image = null;
+            this.lblCHARLY25LCPAGainByBand20.Location = new System.Drawing.Point(16, 144);
+            this.lblCHARLY25LCPAGainByBand20.Name = "lblCHARLY25LCPAGainByBand20";
+            this.lblCHARLY25LCPAGainByBand20.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand20.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand20.TabIndex = 11;
+            this.lblCHARLY25LCPAGainByBand20.Text = "20m:";
+            this.lblCHARLY25LCPAGainByBand20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain20
+            // 
+            this.udCHARLY25LCPAGain20.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain20.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain20.Location = new System.Drawing.Point(56, 144);
+            this.udCHARLY25LCPAGain20.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain20.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain20.Name = "udCHARLY25LCPAGain20";
+            this.udCHARLY25LCPAGain20.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain20.TabIndex = 10;
+            this.udCHARLY25LCPAGain20.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain20.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand30
+            // 
+            this.lblCHARLY25LCPAGainByBand30.Image = null;
+            this.lblCHARLY25LCPAGainByBand30.Location = new System.Drawing.Point(16, 120);
+            this.lblCHARLY25LCPAGainByBand30.Name = "lblCHARLY25LCPAGainByBand30";
+            this.lblCHARLY25LCPAGainByBand30.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand30.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand30.TabIndex = 9;
+            this.lblCHARLY25LCPAGainByBand30.Text = "30m:";
+            this.lblCHARLY25LCPAGainByBand30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain30
+            // 
+            this.udCHARLY25LCPAGain30.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain30.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain30.Location = new System.Drawing.Point(56, 120);
+            this.udCHARLY25LCPAGain30.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain30.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain30.Name = "udCHARLY25LCPAGain30";
+            this.udCHARLY25LCPAGain30.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain30.TabIndex = 8;
+            this.udCHARLY25LCPAGain30.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain30.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand40
+            // 
+            this.lblCHARLY25LCPAGainByBand40.Image = null;
+            this.lblCHARLY25LCPAGainByBand40.Location = new System.Drawing.Point(16, 96);
+            this.lblCHARLY25LCPAGainByBand40.Name = "lblCHARLY25LCPAGainByBand40";
+            this.lblCHARLY25LCPAGainByBand40.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand40.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand40.TabIndex = 7;
+            this.lblCHARLY25LCPAGainByBand40.Text = "40m:";
+            this.lblCHARLY25LCPAGainByBand40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain40
+            // 
+            this.udCHARLY25LCPAGain40.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain40.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain40.Location = new System.Drawing.Point(56, 96);
+            this.udCHARLY25LCPAGain40.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain40.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain40.Name = "udCHARLY25LCPAGain40";
+            this.udCHARLY25LCPAGain40.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain40.TabIndex = 6;
+            this.udCHARLY25LCPAGain40.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain40.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand60
+            // 
+            this.lblCHARLY25LCPAGainByBand60.Image = null;
+            this.lblCHARLY25LCPAGainByBand60.Location = new System.Drawing.Point(16, 72);
+            this.lblCHARLY25LCPAGainByBand60.Name = "lblCHARLY25LCPAGainByBand60";
+            this.lblCHARLY25LCPAGainByBand60.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand60.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand60.TabIndex = 5;
+            this.lblCHARLY25LCPAGainByBand60.Text = "60m:";
+            this.lblCHARLY25LCPAGainByBand60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain60
+            // 
+            this.udCHARLY25LCPAGain60.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain60.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain60.Location = new System.Drawing.Point(56, 72);
+            this.udCHARLY25LCPAGain60.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain60.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain60.Name = "udCHARLY25LCPAGain60";
+            this.udCHARLY25LCPAGain60.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain60.TabIndex = 4;
+            this.udCHARLY25LCPAGain60.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain60.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand80
+            // 
+            this.lblCHARLY25LCPAGainByBand80.Image = null;
+            this.lblCHARLY25LCPAGainByBand80.Location = new System.Drawing.Point(16, 48);
+            this.lblCHARLY25LCPAGainByBand80.Name = "lblCHARLY25LCPAGainByBand80";
+            this.lblCHARLY25LCPAGainByBand80.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand80.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand80.TabIndex = 3;
+            this.lblCHARLY25LCPAGainByBand80.Text = "80m:";
+            this.lblCHARLY25LCPAGainByBand80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // udCHARLY25LCPAGain80
+            // 
+            this.udCHARLY25LCPAGain80.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain80.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain80.Location = new System.Drawing.Point(56, 48);
+            this.udCHARLY25LCPAGain80.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain80.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain80.Name = "udCHARLY25LCPAGain80";
+            this.udCHARLY25LCPAGain80.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain80.TabIndex = 2;
+            this.udCHARLY25LCPAGain80.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain80.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // lblCHARLY25LCPAGainByBand160
+            // 
+            this.lblCHARLY25LCPAGainByBand160.Image = null;
+            this.lblCHARLY25LCPAGainByBand160.Location = new System.Drawing.Point(16, 24);
+            this.lblCHARLY25LCPAGainByBand160.Name = "lblCHARLY25LCPAGainByBand160";
+            this.lblCHARLY25LCPAGainByBand160.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCHARLY25LCPAGainByBand160.Size = new System.Drawing.Size(40, 16);
+            this.lblCHARLY25LCPAGainByBand160.TabIndex = 1;
+            this.lblCHARLY25LCPAGainByBand160.Text = "160m:";
+            this.lblCHARLY25LCPAGainByBand160.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // udCHARLY25LCPAGain160
+            // 
+            this.udCHARLY25LCPAGain160.DecimalPlaces = 1;
+            this.udCHARLY25LCPAGain160.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain160.Location = new System.Drawing.Point(56, 24);
+            this.udCHARLY25LCPAGain160.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain160.Minimum = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.udCHARLY25LCPAGain160.Name = "udCHARLY25LCPAGain160";
+            this.udCHARLY25LCPAGain160.Size = new System.Drawing.Size(48, 20);
+            this.udCHARLY25LCPAGain160.TabIndex = 0;
+            this.udCHARLY25LCPAGain160.Value = new decimal(new int[] {
+            250,
+            0,
+            0,
+            65536});
+            this.udCHARLY25LCPAGain160.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
             // 
             // grpPAGainByBand
             // 
@@ -31123,7 +32315,6 @@
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGainVHF5);
             this.grpANAN100PAGainByBand.Controls.Add(this.labelTS188);
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGainVHF4);
-            this.grpANAN100PAGainByBand.Controls.Add(this.labelTS189);
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGainVHF3);
             this.grpANAN100PAGainByBand.Controls.Add(this.labelTS190);
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGainVHF2);
@@ -31154,6 +32345,7 @@
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGain80);
             this.grpANAN100PAGainByBand.Controls.Add(this.labelTS203);
             this.grpANAN100PAGainByBand.Controls.Add(this.udANAN100PAGain160);
+            this.grpANAN100PAGainByBand.Controls.Add(this.labelTS189);
             this.grpANAN100PAGainByBand.Location = new System.Drawing.Point(8, 8);
             this.grpANAN100PAGainByBand.Name = "grpANAN100PAGainByBand";
             this.grpANAN100PAGainByBand.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -31571,17 +32763,6 @@
             0,
             65536});
             this.udANAN100PAGainVHF4.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
-            // 
-            // labelTS189
-            // 
-            this.labelTS189.Image = null;
-            this.labelTS189.Location = new System.Drawing.Point(147, 96);
-            this.labelTS189.Name = "labelTS189";
-            this.labelTS189.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.labelTS189.Size = new System.Drawing.Size(40, 16);
-            this.labelTS189.TabIndex = 94;
-            this.labelTS189.Text = "VHF3:";
-            this.labelTS189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // udANAN100PAGainVHF3
             // 
@@ -32182,6 +33363,17 @@
             0,
             0});
             this.udANAN100PAGain160.ValueChanged += new System.EventHandler(this.udPAGain_ValueChanged);
+            // 
+            // labelTS189
+            // 
+            this.labelTS189.Image = null;
+            this.labelTS189.Location = new System.Drawing.Point(147, 96);
+            this.labelTS189.Name = "labelTS189";
+            this.labelTS189.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.labelTS189.Size = new System.Drawing.Size(40, 16);
+            this.labelTS189.TabIndex = 94;
+            this.labelTS189.Text = "VHF3:";
+            this.labelTS189.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // grpOrionPAGainByBand
             // 
@@ -42090,6 +43282,34 @@
             this.radioButtonTS6.Text = "Auto";
             this.radioButtonTS6.UseVisualStyleBackColor = true;
             // 
+            // numericUpDownTS40
+            // 
+            this.numericUpDownTS40.DecimalPlaces = 1;
+            this.numericUpDownTS40.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.numericUpDownTS40.Location = new System.Drawing.Point(299, 96);
+            this.numericUpDownTS40.Maximum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.numericUpDownTS40.Minimum = new decimal(new int[] {
+            388,
+            0,
+            0,
+            65536});
+            this.numericUpDownTS40.Name = "numericUpDownTS40";
+            this.numericUpDownTS40.Size = new System.Drawing.Size(48, 20);
+            this.numericUpDownTS40.TabIndex = 107;
+            this.numericUpDownTS40.Value = new decimal(new int[] {
+            562,
+            0,
+            0,
+            65536});
+            // 
             // Setup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -42648,6 +43868,32 @@
             this.tpGainByBand.ResumeLayout(false);
             this.panelAutoPACalibrate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.udPACalPower)).EndInit();
+            this.grpCHARLY25LCPAGainByBand.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGainVHF0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udCHARLY25LCPAGain160)).EndInit();
             this.grpPAGainByBand.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.udPAGainVHF13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.udPAGainVHF12)).EndInit();
@@ -42988,6 +44234,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTS36)).EndInit();
             this.panelTS4.ResumeLayout(false);
             this.panelTS4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTS40)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -44139,5 +45386,61 @@
         private System.Windows.Forms.ComboBoxTS comboDSPFMRXBuf;
         private System.Windows.Forms.LabelTS labelTS369;
         private System.Windows.Forms.TabPage tpDSPNB;
-   }
+        private System.Windows.Forms.RadioButtonTS radGenModelCharly25LC;
+        private System.Windows.Forms.RadioButtonTS radGenModelHAMlab;
+        private System.Windows.Forms.GroupBoxTS grpCHARLY25LCPAGainByBand;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF13;
+        private System.Windows.Forms.CheckBoxTS chkCHARLY25LCPANewCal;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF13;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF12;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF12;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF11;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF11;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF10;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF10;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF9;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF9;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF8;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF8;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF7;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF7;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF6;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF6;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF5;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF5;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF4;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF4;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF3;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF3;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF2;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF2;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF1;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF1;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBandVHF0;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGainVHF0;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain6;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand6;
+        private System.Windows.Forms.ButtonTS btnCHARLY25LCPAGainReset;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand10;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain10;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand12;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain12;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand15;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain15;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand17;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain17;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand20;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain20;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand30;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain30;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand40;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain40;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand60;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain60;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand80;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain80;
+        private System.Windows.Forms.LabelTS lblCHARLY25LCPAGainByBand160;
+        private System.Windows.Forms.NumericUpDownTS udCHARLY25LCPAGain160;
+        private System.Windows.Forms.NumericUpDownTS numericUpDownTS40;
+    }
 }

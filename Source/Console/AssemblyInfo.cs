@@ -35,7 +35,7 @@ using System.Runtime.CompilerServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly: AssemblyTitle("PowerSDR/HPSDR")]
+[assembly: AssemblyTitle("PowerSDR/HPSDR Charly 25 / HAMlab Edition")]
 [assembly: AssemblyDescription("Software Defined Radio Application")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("OpenHPSDR")]
@@ -64,6 +64,10 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("3.3.9.0")]
+
+// DG8MG
+[assembly: AssemblyInformationalVersion("1.{c:ymd-}_{chash:7}")]
+// DG8MG
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

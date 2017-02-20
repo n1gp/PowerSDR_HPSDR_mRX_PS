@@ -2046,8 +2046,17 @@ namespace PowerSDR
         {
             string skin = comboAppSkin.Text;
             comboAppSkin.Items.Clear();
+
+            // DG8MG
+            // string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
+            //        "\\FlexRadio Systems\\PowerSDR\\Skins";
+
+            // Corrected and extended the path variable by " Charly25 HAMlab" for the skins,
+            // to use the same application data base directory as the rest of PowerSDR mRX PS Charly 25 HAMlab edition
+            // and avoid incompatibility with other PowerSDR versions
             string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-                    "\\FlexRadio Systems\\PowerSDR\\Skins";
+                    "\\FlexRadio Systems\\PowerSDR mRX PS Charly25 HAMlab\\Skins\\";
+            // DG8MG
 
             if (!Directory.Exists(path))
             {
@@ -4653,6 +4662,17 @@ namespace PowerSDR
                         radGenModelOrion.Checked = true;
                         break;
 
+                    // DG8MG
+                    case Model.CHARLY25LC:
+                        force_model = true;
+                        radGenModelCharly25LC.Checked = true;
+                        break;
+                    case Model.HAMLAB:
+                        force_model = true;
+                        radGenModelHAMlab.Checked = true;
+                        break;
+                    // DG8MG
+
                 }
             }
         }
@@ -5824,6 +5844,159 @@ namespace PowerSDR
             get { return (float)udOrionPAGainVHF13.Value; }
             set { udOrionPAGainVHF13.Value = (decimal)value; }
         }
+
+        // DG8MG
+        // Extension for Charly 25 and HAMlab hardware
+        // PAGain CHARLY25LC
+        public float CHARLY25LCPAGain160
+        {
+            get { return (float)udCHARLY25LCPAGain160.Value; }
+            set { udCHARLY25LCPAGain160.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain80
+        {
+            get { return (float)udCHARLY25LCPAGain80.Value; }
+            set { udCHARLY25LCPAGain80.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain60
+        {
+            get { return (float)udCHARLY25LCPAGain60.Value; }
+            set { udCHARLY25LCPAGain60.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain40
+        {
+            get { return (float)udCHARLY25LCPAGain40.Value; }
+            set { udCHARLY25LCPAGain40.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain30
+        {
+            get { return (float)udCHARLY25LCPAGain30.Value; }
+            set { udCHARLY25LCPAGain30.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain20
+        {
+            get { return (float)udCHARLY25LCPAGain20.Value; }
+            set { udCHARLY25LCPAGain20.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain17
+        {
+            get { return (float)udCHARLY25LCPAGain17.Value; }
+            set { udCHARLY25LCPAGain17.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain15
+        {
+            get { return (float)udCHARLY25LCPAGain15.Value; }
+            set { udCHARLY25LCPAGain15.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain12
+        {
+            get { return (float)udCHARLY25LCPAGain12.Value; }
+            set { udCHARLY25LCPAGain12.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain10
+        {
+            get { return (float)udCHARLY25LCPAGain10.Value; }
+            set { udCHARLY25LCPAGain10.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGain6
+        {
+            get { return (float)udCHARLY25LCPAGain6.Value; }
+            set { udCHARLY25LCPAGain6.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF0
+        {
+            get { return (float)udCHARLY25LCPAGainVHF0.Value; }
+            set { udCHARLY25LCPAGainVHF0.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF1
+        {
+            get { return (float)udCHARLY25LCPAGainVHF1.Value; }
+            set { udCHARLY25LCPAGainVHF1.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF2
+        {
+            get { return (float)udCHARLY25LCPAGainVHF2.Value; }
+            set { udCHARLY25LCPAGainVHF2.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF3
+        {
+            get { return (float)udCHARLY25LCPAGainVHF3.Value; }
+            set { udCHARLY25LCPAGainVHF3.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF4
+        {
+            get { return (float)udCHARLY25LCPAGainVHF4.Value; }
+            set { udCHARLY25LCPAGainVHF4.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF5
+        {
+            get { return (float)udCHARLY25LCPAGainVHF5.Value; }
+            set { udCHARLY25LCPAGainVHF5.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF6
+        {
+            get { return (float)udCHARLY25LCPAGainVHF6.Value; }
+            set { udCHARLY25LCPAGainVHF6.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF7
+        {
+            get { return (float)udCHARLY25LCPAGainVHF7.Value; }
+            set { udCHARLY25LCPAGainVHF7.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF8
+        {
+            get { return (float)udCHARLY25LCPAGainVHF8.Value; }
+            set { udCHARLY25LCPAGainVHF8.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF9
+        {
+            get { return (float)udCHARLY25LCPAGainVHF9.Value; }
+            set { udCHARLY25LCPAGainVHF9.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF10
+        {
+            get { return (float)udCHARLY25LCPAGainVHF10.Value; }
+            set { udCHARLY25LCPAGainVHF10.Value = (decimal)value; }
+        }
+        public float CHARLY25LCPAGainVHF11
+        {
+            get { return (float)udCHARLY25LCPAGainVHF11.Value; }
+            set { udCHARLY25LCPAGainVHF11.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF12
+        {
+            get { return (float)udCHARLY25LCPAGainVHF12.Value; }
+            set { udCHARLY25LCPAGainVHF12.Value = (decimal)value; }
+        }
+
+        public float CHARLY25LCPAGainVHF13
+        {
+            get { return (float)udCHARLY25LCPAGainVHF13.Value; }
+            set { udCHARLY25LCPAGainVHF13.Value = (decimal)value; }
+        }
+        // DG8MG
 
         public int TunePower
         {
@@ -7390,6 +7563,339 @@ namespace PowerSDR
             }
         }
 
+        // DG8MG
+        // Extension for Charly 25LC hardware
+        private void radGenModelCharly25LC_CheckedChanged(object sender, System.EventArgs e)
+        {
+            HPSDRModel old_model = console.CurrentHPSDRModel;
+
+            if (radGenModelCharly25LC.Checked)  // Charly 25LC is selected
+            {
+                JanusAudio.fwVersionsChecked = false;
+                console.CurrentModel = Model.CHARLY25LC;
+                console.CurrentHPSDRModel = HPSDRModel.CHARLY25LC;
+                chkPennyPresent.Checked = true;  
+                chkPennyPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkPennyLane.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkPennyLane.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkMercuryPresent.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkMercuryPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkJanusPresent.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkJanusPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkExcaliburPresent.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkExcaliburPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                groupBox10MhzClock.Visible = true;
+                groupBox122MHz.Visible = true;
+                groupBoxMicSource.Visible = true;
+                chkHermesStepAttenuator.Checked = false;  // Charly 25LC doesn't need this functionality
+                grpHermesStepAttenuator.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkAlexPresent.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkAlexPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                chkApolloPresent.Checked = false;  // Charly 25LC doesn't need this functionality
+                chkApolloPresent.Visible = false;  // Charly 25LC doesn't need this functionality
+                groupBoxRXOptions.Text = "Mercury Options";
+                radMetis.Text = "RedPitaya (Ethernet)";
+                grpMetisAddr.Text = "RedPitaya Address";
+                chkAlexPresent_CheckedChanged(this, EventArgs.Empty);
+                chkAlexAntCtrl_CheckedChanged(this, EventArgs.Empty);
+                chkBypassANANPASettings.Visible = false;
+                chkAutoPACalibrate.Visible = true;
+                grpCHARLY25LCPAGainByBand.BringToFront();
+                labelRXAntControl.Text = "  RX1   RX2    XVTR";
+                chkATTOnTX.Checked = false;  // Charly 25LC doesn't have a TX step attenuator
+                console.RX2PreampPresent = false;  // Charly 25LC doesn't have a RX2 preamp
+                chkRxOutOnTx.Text = "RX 1 OUT on Tx";
+                chkEXT1OutOnTx.Text = "RX 2 IN on Tx";
+                chkEXT2OutOnTx.Text = "RX 1 IN on Tx";
+                groupBoxHPSDRHW.Visible = true;  // Fix me: Is it really needed?
+                grpOzyType.Visible = true;
+                radOzyUSB.Checked = false;
+                radOzyUSB.Enabled = false;
+                radMetis.Checked = true;
+                chkVACAllowBypass.Checked = false;  // Charly 25LC needs this to be unchecked
+                console.psform.AutoAttenuate = false;  // Charly 25LC doesn't have this functionality
+                console.psform.AutoAttenuate_Visible = false;  // Charly 25LC doesn't have this functionality
+            }
+            else  // Charly 25LC is deselected
+            {
+                chkVACAllowBypass.Checked = true;  // reset to default setting
+                grpHermesStepAttenuator.Visible = true;  // reset to default setting
+                console.psform.AutoAttenuate = true;  // reset to default setting
+                console.psform.AutoAttenuate_Visible = true;  // reset to default setting
+                // console.chkRX2.Enabled = true;  // Enable the second RX button
+            }
+
+            // DG8MG: Test me!
+            // Copied content from function: radGenModelHPSDR_or_Hermes_CheckedChanged(sender, e, false) and modified it for Charly 25LC
+            {
+                // add or remove setup pages for HPSDR stuff 
+                // AddHPSDRPages();  // Fix me: Is it really needed? DG8MG
+                RemoveHPSDRPages();
+
+                // force setting of audio card 
+                comboAudioSoundCard.Text = "HPSDR";
+                comboAudioSoundCard.Enabled = false;
+                udAudioVoltage1.Value = 0.80M;
+                udAudioVoltage1.Enabled = false;
+                btnAudioVoltTest1.Visible = false;
+                // and enable the gain by band page 
+                grpFRSRegion.Visible = true;
+                grpPAGainByBand.Visible = true;
+                grpGenCalRXImage.Visible = false;
+                grpTestX2.Visible = false;
+                lblMoxDelay.Visible = true;
+                udMoxDelay.Visible = true;
+                udMoxDelay.Enabled = true;
+                udRFDelay.Visible = true;
+                udRFDelay.Enabled = true;
+                lblRFDelay.Visible = true;
+                grpImpulseTest.Visible = false;
+
+                {
+                    grpGeneralHardwareORION.Visible = false;
+                    groupBoxHPSDRHW.BringToFront();
+                    // groupBoxHPSDRHW.Visible = true;
+                }
+
+                chkAudioExpert.Checked = false;
+                chkAudioExpert.Visible = false;
+                grpGenCalRXImage.Enabled = false;
+                chkCalExpert.Enabled = false;
+                grpHPSDRFreqCalDbg.Visible = true;
+
+/*               {
+                    chkRxOutOnTx.Enabled = true;
+                    chkEXT1OutOnTx.Enabled = true;
+                    chkEXT2OutOnTx.Enabled = true;
+
+
+                    panelAlex1HPFControl.Visible = true;
+                    tpAlexFilterControl.Text = "HPF/LPF";
+                    panelAlexRXXVRTControl.Visible = true;
+                    labelAlexFilterActive.Location = new Point(275, 0);
+                }
+
+                {
+                    tpAlexControl.Text = "Alex";
+                    chkHFTRRelay.Checked = false;
+                    chkHFTRRelay.Enabled = false;
+                    chkHFTRRelay.Visible = false;
+                }
+*/
+
+                chkLimitRX.Enabled = true;
+                tpPennyCtrl.Text = "Penny Ctrl";
+            }
+            // End of Copied content from function: radGenModelHPSDR_or_Hermes_CheckedChanged(sender, e, false) and modified it for Charly 25LC
+
+            if (radMetis.Checked)
+            {
+                console.HPSDRisMetis = true;
+                grpMetisAddr.Visible = true;
+            }
+
+            if (radGenModelCharly25LC.Checked)   // Test me! DG8MG
+            {
+                int nr = 2;
+                bool pwr_cycled = false;
+                if (!chkDisablePureSignal.Checked)
+                    nr = console.psform.NRX(nr, console.CurrentHPSDRModel);
+                int old_rate = console.NReceivers;
+                int new_rate = nr;
+                bool power = console.PowerOn;
+                if (power && new_rate != old_rate)
+                {
+                    console.PowerOn = false;
+                    Thread.Sleep(100);
+                }
+                console.psform.SetPSReceivers(console.CurrentHPSDRModel);
+                console.NReceivers = nr;
+
+                if (power && new_rate != old_rate)
+                {
+                    pwr_cycled = true;
+                    console.PowerOn = true;
+                }
+
+                if (power && !pwr_cycled)
+                {
+                    if (old_model != console.CurrentHPSDRModel)
+                    {
+                        console.PowerOn = false;
+                        Thread.Sleep(100);
+                        console.PowerOn = true;
+                    }
+                }
+            }
+        }
+
+        // DG8MG
+        // Extension for HAMlab hardware
+        private void radGenModelHamlab_CheckedChanged(object sender, System.EventArgs e)
+        {
+            HPSDRModel old_model = console.CurrentHPSDRModel;
+
+            if (radGenModelHAMlab.Checked)  // HAMlab is selected
+            {
+                JanusAudio.fwVersionsChecked = false;
+                console.CurrentModel = Model.HAMLAB;
+                console.CurrentHPSDRModel = HPSDRModel.HAMLAB;
+                chkPennyPresent.Checked = true;
+                chkPennyPresent.Visible = false;  // HAMlab doesn't need this functionality
+                chkPennyLane.Checked = false;  // HAMlab doesn't need this functionality
+                chkPennyLane.Visible = false;  // HAMlab doesn't need this functionality
+                chkMercuryPresent.Checked = false;  // HAMlab doesn't need this functionality
+                chkMercuryPresent.Visible = false;  // HAMlab doesn't need this functionality
+                chkJanusPresent.Checked = false;  // HAMlab doesn't need this functionality
+                chkJanusPresent.Visible = false;  // HAMlab doesn't need this functionality
+                chkExcaliburPresent.Checked = false;  // HAMlab doesn't need this functionality
+                chkExcaliburPresent.Visible = false;  // HAMlab doesn't need this functionality
+                groupBox10MhzClock.Visible = true;
+                groupBox122MHz.Visible = true;
+                groupBoxMicSource.Visible = true;
+                chkHermesStepAttenuator.Checked = false;  // HAMlab doesn't need this functionality
+                grpHermesStepAttenuator.Visible = false;  // HAMlab doesn't need this functionality
+                chkAlexPresent.Checked = false;  // HAMlab doesn't need this functionality
+                chkAlexPresent.Visible = false;  // HAMlab doesn't need this functionality
+                chkApolloPresent.Checked = false;  // HAMlab doesn't need this functionality
+                chkApolloPresent.Visible = false;  // HAMlab doesn't need this functionality
+                groupBoxRXOptions.Text = "Mercury Options";
+                radMetis.Text = "RedPitaya (Ethernet)";
+                grpMetisAddr.Text = "RedPitaya Address";
+                chkAlexPresent_CheckedChanged(this, EventArgs.Empty);
+                chkAlexAntCtrl_CheckedChanged(this, EventArgs.Empty);
+                chkBypassANANPASettings.Visible = false;
+                chkAutoPACalibrate.Visible = true;
+                grpCHARLY25LCPAGainByBand.BringToFront();
+                labelRXAntControl.Text = "  RX1   RX2    XVTR";
+                chkATTOnTX.Checked = false;  // HAMlab doesn't have a TX step attenuator
+                console.RX2PreampPresent = false;  // HAMlab doesn't have a RX2 preamp
+                chkRxOutOnTx.Text = "RX 1 OUT on Tx";
+                chkEXT1OutOnTx.Text = "RX 2 IN on Tx";
+                chkEXT2OutOnTx.Text = "RX 1 IN on Tx";
+                groupBoxHPSDRHW.Visible = true;  // Fix me: Is it really needed?
+                grpOzyType.Visible = true;
+                radOzyUSB.Checked = false;
+                radOzyUSB.Enabled = false;
+                radMetis.Checked = true;
+                chkVACAllowBypass.Checked = false;  // HAMlab needs this to be unchecked
+                console.psform.AutoAttenuate = false;  // HAMlab doesn't have this functionality
+                console.psform.AutoAttenuate_Visible = false;  // HAMlab doesn't have this functionality
+            }
+            else  // HAMlab is deselected
+            {
+                chkVACAllowBypass.Checked = true;  // reset to default setting
+                grpHermesStepAttenuator.Visible = true;  // reset to default setting
+                console.psform.AutoAttenuate = true;  // reset to default setting
+                console.psform.AutoAttenuate_Visible = true;  // reset to default setting
+                // console.chkRX2.Enabled = true;  // Enable the second RX button
+            }
+
+            // DG8MG: Test me!
+            // Copied content from function: radGenModelHPSDR_or_Hermes_CheckedChanged(sender, e, false) and modified it for HAMlab
+            {
+                // add or remove setup pages for HPSDR stuff 
+                // AddHPSDRPages();  // Fix me: Is it really needed? DG8MG
+                RemoveHPSDRPages();
+
+                // force setting of audio card 
+                comboAudioSoundCard.Text = "HPSDR";
+                comboAudioSoundCard.Enabled = false;
+                udAudioVoltage1.Value = 0.80M;
+                udAudioVoltage1.Enabled = false;
+                btnAudioVoltTest1.Visible = false;
+                // and enable the gain by band page 
+                grpFRSRegion.Visible = true;
+                grpPAGainByBand.Visible = true;
+                grpGenCalRXImage.Visible = false;
+                grpTestX2.Visible = false;
+                lblMoxDelay.Visible = true;
+                udMoxDelay.Visible = true;
+                udMoxDelay.Enabled = true;
+                udRFDelay.Visible = true;
+                udRFDelay.Enabled = true;
+                lblRFDelay.Visible = true;
+                grpImpulseTest.Visible = false;
+
+                {
+                    grpGeneralHardwareORION.Visible = false;
+                    groupBoxHPSDRHW.BringToFront();
+                    // groupBoxHPSDRHW.Visible = true;
+                }
+
+                chkAudioExpert.Checked = false;
+                chkAudioExpert.Visible = false;
+                grpGenCalRXImage.Enabled = false;
+                chkCalExpert.Enabled = false;
+                grpHPSDRFreqCalDbg.Visible = true;
+
+                /*               {
+                                    chkRxOutOnTx.Enabled = true;
+                                    chkEXT1OutOnTx.Enabled = true;
+                                    chkEXT2OutOnTx.Enabled = true;
+
+
+                                    panelAlex1HPFControl.Visible = true;
+                                    tpAlexFilterControl.Text = "HPF/LPF";
+                                    panelAlexRXXVRTControl.Visible = true;
+                                    labelAlexFilterActive.Location = new Point(275, 0);
+                                }
+
+                                {
+                                    tpAlexControl.Text = "Alex";
+                                    chkHFTRRelay.Checked = false;
+                                    chkHFTRRelay.Enabled = false;
+                                    chkHFTRRelay.Visible = false;
+                                }
+                */
+
+                chkLimitRX.Enabled = true;
+                tpPennyCtrl.Text = "Penny Ctrl";
+            }
+            // End of Copied content from function: radGenModelHPSDR_or_Hermes_CheckedChanged(sender, e, false) and modified it for HAMlab
+
+            if (radMetis.Checked)
+            {
+                console.HPSDRisMetis = true;
+                grpMetisAddr.Visible = true;
+            }
+
+            if (radGenModelHAMlab.Checked)   /// Test me! DG8MG
+            {
+                int nr = 2;
+                bool pwr_cycled = false;
+                if (!chkDisablePureSignal.Checked)
+                    nr = console.psform.NRX(nr, console.CurrentHPSDRModel);
+                int old_rate = console.NReceivers;
+                int new_rate = nr;
+                bool power = console.PowerOn;
+                if (power && new_rate != old_rate)
+                {
+                    console.PowerOn = false;
+                    Thread.Sleep(100);
+                }
+                console.psform.SetPSReceivers(console.CurrentHPSDRModel);
+                console.NReceivers = nr;
+
+                if (power && new_rate != old_rate)
+                {
+                    pwr_cycled = true;
+                    console.PowerOn = true;
+                }
+
+                if (power && !pwr_cycled)
+                {
+                    if (old_model != console.CurrentHPSDRModel)
+                    {
+                        console.PowerOn = false;
+                        Thread.Sleep(100);
+                        console.PowerOn = true;
+                    }
+                }
+            }
+        }
+        // DG8MG
+
         private void radGenModelSoftRock40_CheckedChanged(object sender, System.EventArgs e)
         {
             if (radGenModelSoftRock40.Checked)
@@ -7766,18 +8272,58 @@ namespace PowerSDR
             //    tcCAT.SelectedIndex = 0;
             //}
 
-            if (!tcGeneral.TabPages.Contains(tpHPSDR))
+            // DG8MG
+            // Extension for Charly 25 and HAMlab Attenuator and Preamp
+            if ((!radGenModelCharly25LC.Checked) && (!radGenModelHAMlab.Checked))
             {
-                Common.TabControlInsert(tcGeneral, tpHPSDR, 1);
+                if (!tcGeneral.TabPages.Contains(tpHPSDR))
+                {
+                    Common.TabControlInsert(tcGeneral, tpHPSDR, 1);
+                }
+                else
+                {
+                    if (tcGeneral.TabPages.IndexOf(tpHPSDR) != 1)
+                    {
+                        tcGeneral.TabPages.Remove(tpHPSDR);
+                        Common.TabControlInsert(tcGeneral, tpHPSDR, 1);
+                    }
+                }
+
+                if (!tcGeneral.TabPages.Contains(tpPennyCtrl))
+                {
+                    Common.TabControlInsert(tcGeneral, tpPennyCtrl, 5);
+                }
+                else
+                {
+                    if (tcGeneral.TabPages.IndexOf(tpPennyCtrl) != 5)
+                    {
+                        tcGeneral.TabPages.Remove(tpPennyCtrl);
+                        Common.TabControlInsert(tcGeneral, tpPennyCtrl, 5);
+                    }
+                }
+
+                if (!tcGeneral.TabPages.Contains(tpAlexControl))
+                {
+                    Common.TabControlInsert(tcGeneral, tpAlexControl, 6);
+                }
+                else
+                {
+                    if (tcGeneral.TabPages.IndexOf(tpAlexControl) != 6)
+                    {
+                        tcGeneral.TabPages.Remove(tpAlexControl);
+                        Common.TabControlInsert(tcGeneral, tpAlexControl, 6);
+                    }
+                }
             }
             else
             {
-                if (tcGeneral.TabPages.IndexOf(tpHPSDR) != 1)
+                if (tcGeneral.TabPages.Contains(tpAlexControl))
                 {
-                    tcGeneral.TabPages.Remove(tpHPSDR);
-                    Common.TabControlInsert(tcGeneral, tpHPSDR, 1);
+                    tcGeneral.TabPages.Remove(tpAlexControl);
+                    tcGeneral.SelectedIndex = 0;
                 }
             }
+            // DG8MG
 
             if (radGenModelOrion.Checked || radGenModelANAN100D.Checked)
             {
@@ -7801,32 +8347,6 @@ namespace PowerSDR
                 {
                     tcGeneral.TabPages.Remove(tpADC);
                     tcGeneral.SelectedIndex = 0;
-                }
-            }
-
-            if (!tcGeneral.TabPages.Contains(tpPennyCtrl))
-            {
-                Common.TabControlInsert(tcGeneral, tpPennyCtrl, 5);
-            }
-            else
-            {
-                if (tcGeneral.TabPages.IndexOf(tpPennyCtrl) != 5)
-                {
-                    tcGeneral.TabPages.Remove(tpPennyCtrl);
-                    Common.TabControlInsert(tcGeneral, tpPennyCtrl, 5);
-                }
-            }
-
-            if (!tcGeneral.TabPages.Contains(tpAlexControl))
-            {
-                Common.TabControlInsert(tcGeneral, tpAlexControl, 6);
-            }
-            else
-            {
-                if (tcGeneral.TabPages.IndexOf(tpAlexControl) != 6)
-                {
-                    tcGeneral.TabPages.Remove(tpAlexControl);
-                    Common.TabControlInsert(tcGeneral, tpAlexControl, 6);
                 }
             }
 
@@ -8153,15 +8673,30 @@ namespace PowerSDR
 
         private void CalibrateRX2Level()
         {
-            bool done = console.CalibrateRX2Level(
+            // DG8MG
+            // Extension for Charly 25 and HAMlab hardware
+            bool done = false;
+            if (console.CurrentHPSDRModel == HPSDRModel.CHARLY25LC || console.CurrentHPSDRModel == HPSDRModel.HAMLAB)
+            {
+                done = console.CalibrateRX2Level_Charly25(
                 (float)udGeneralCalRX2Level.Value,
                 (float)udGeneralCalRX2Freq2.Value,
                 progress,
                 false);
+            }
+            else
+            {
+                done = console.CalibrateRX2Level(
+                (float)udGeneralCalRX2Level.Value,
+                (float)udGeneralCalRX2Freq2.Value,
+                progress,
+                false);
+            }
+            // DG8MG
+
             if (done) MessageBox.Show("Level Calibration complete.");
             btnCalLevel.Enabled = true;
             //  UpdateDisplayMeter();
-
         }
 
         private void chkGeneralDisablePTT_CheckedChanged(object sender, System.EventArgs e)
@@ -9106,6 +9641,14 @@ namespace PowerSDR
                 else Audio.Latency1 = 0;
             }
 
+            // DG8MG
+            // Added missing assignment if Manual option is checked
+            else
+            {
+                Audio.Latency1 = (int)udAudioLatency1.Value;
+            }
+            // DG8MG
+
             if (power) console.PowerOn = true;
         }
 
@@ -9122,6 +9665,14 @@ namespace PowerSDR
 
             if (!chkAudioLatencyManual2.Checked)
                 Audio.Latency2 = 120;
+
+            // DG8MG
+            // Added missing assignment if Manual option is checked
+            else
+            {
+                Audio.Latency2 = (int)udAudioLatency2.Value;
+            }
+            // DG8MG
 
             if (power && chkAudioEnableVAC.Checked)
                 console.PowerOn = true;
@@ -9140,6 +9691,14 @@ namespace PowerSDR
 
             if (!chkVAC2LatencyManual.Checked)
                 Audio.Latency3 = 120;
+
+            // DG8MG
+            // Added missing assignment if Manual option is checked
+            else
+            {
+                Audio.Latency3 = (int)udVAC2Latency.Value;
+            }
+            // DG8MG
 
             if (power && chkVAC2Enable.Checked)
                 console.PowerOn = true;
@@ -12203,6 +12762,37 @@ namespace PowerSDR
                 udHermesPAGainVHF12.Value = 56.2M;
                 udHermesPAGainVHF13.Value = 56.2M;
             }
+
+            if (radGenModelCharly25LC.Checked || radGenModelHAMlab.Checked)
+            {
+                udCHARLY25LCPAGain160.Value = 25.0M;
+                udCHARLY25LCPAGain80.Value = 25.0M;
+                udCHARLY25LCPAGain60.Value = 25.0M;
+                udCHARLY25LCPAGain40.Value = 25.0M;
+                udCHARLY25LCPAGain30.Value = 25.0M;
+                udCHARLY25LCPAGain20.Value = 25.0M;
+                udCHARLY25LCPAGain17.Value = 25.0M;
+                udCHARLY25LCPAGain15.Value = 25.0M;
+                udCHARLY25LCPAGain12.Value = 25.0M;
+                udCHARLY25LCPAGain10.Value = 25.0M;
+                udCHARLY25LCPAGain6.Value = 6.0M;
+
+                udCHARLY25LCPAGainVHF0.Value = 0.0M;
+                udCHARLY25LCPAGainVHF1.Value = 1.0M;
+                udCHARLY25LCPAGainVHF2.Value = 2.0M;
+                udCHARLY25LCPAGainVHF3.Value = 3.0M;
+                udCHARLY25LCPAGainVHF4.Value = 4.0M;
+                udCHARLY25LCPAGainVHF5.Value = 5.0M;
+                udCHARLY25LCPAGainVHF6.Value = 6.0M;
+                udCHARLY25LCPAGainVHF7.Value = 7.0M;
+                udCHARLY25LCPAGainVHF8.Value = 8.0M;
+                udCHARLY25LCPAGainVHF9.Value = 9.0M;
+                udCHARLY25LCPAGainVHF10.Value = 10.0M;
+                udCHARLY25LCPAGainVHF11.Value = 11.0M;
+                udCHARLY25LCPAGainVHF12.Value = 12.0M;
+                udCHARLY25LCPAGainVHF13.Value = 13.0M;
+            }
+
         }
 
         #endregion
@@ -13623,6 +14213,11 @@ namespace PowerSDR
             }
             else
             {
+                // DG8MG
+                // Save the currently selected IP address even if the "Select IP" button was not pressed before.
+                btnSetIPAddr_Click(this, EventArgs.Empty);
+                // DG8MG
+
                 Thread t = new Thread(new ThreadStart(SaveOptions));
                 t.Name = "Save Options Thread";
                 t.IsBackground = true;
@@ -13647,6 +14242,11 @@ namespace PowerSDR
 
         private void btnApply_Click(object sender, System.EventArgs e)
         {
+            // DG8MG
+            // Save the currently selected IP address even if the "Select IP" button was not pressed before.
+            btnSetIPAddr_Click(this, null);
+            // DG8MG
+
             Thread t = new Thread(new ThreadStart(ApplyOptions));
             t.Name = "Save Options Thread";
             t.IsBackground = true;
@@ -14649,6 +15249,43 @@ namespace PowerSDR
             }
         }
 
+        // DG8MG: Test me!
+        // Extension for Charly 25 and HAMlab hardware
+        private void chkCHARLY25LCPANewCal_CheckedChanged(object sender, EventArgs e)
+        {
+            bool b = chkCHARLY25LCPANewCal.Checked;
+
+            console.NewPowerCal = b;
+
+            lblCHARLY25LCPAGainByBand160.Visible = !b;
+            lblCHARLY25LCPAGainByBand80.Visible = !b;
+            lblCHARLY25LCPAGainByBand60.Visible = !b;
+            lblCHARLY25LCPAGainByBand40.Visible = !b;
+            lblCHARLY25LCPAGainByBand30.Visible = !b;
+            lblCHARLY25LCPAGainByBand20.Visible = !b;
+            lblCHARLY25LCPAGainByBand17.Visible = !b;
+            lblCHARLY25LCPAGainByBand15.Visible = !b;
+            lblCHARLY25LCPAGainByBand12.Visible = !b;
+            lblCHARLY25LCPAGainByBand10.Visible = !b;
+
+            udCHARLY25LCPAGain160.Visible = !b;
+            udCHARLY25LCPAGain80.Visible = !b;
+            udCHARLY25LCPAGain60.Visible = !b;
+            udCHARLY25LCPAGain40.Visible = !b;
+            udCHARLY25LCPAGain30.Visible = !b;
+            udCHARLY25LCPAGain20.Visible = !b;
+            udCHARLY25LCPAGain17.Visible = !b;
+            udCHARLY25LCPAGain15.Visible = !b;
+            udCHARLY25LCPAGain12.Visible = !b;
+            udCHARLY25LCPAGain10.Visible = !b;
+            udCHARLY25LCPAGain6.Visible = !b;
+
+            lblPACalTarget.Visible = !b;
+            udPACalPower.Visible = !b;
+            btnPAGainReset.Visible = !b;
+        }
+        // DG8MG
+
         private void chkAudioExpert_CheckedChanged(object sender, System.EventArgs e)
         {
             if (chkAudioExpert.Checked && chkAudioExpert.Focused)
@@ -15115,8 +15752,16 @@ namespace PowerSDR
 
         private void comboAppSkin_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // DG8MG
+            // string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
+            //        "\\FlexRadio Systems\\PowerSDR\\Skins\\";
+
+            // Corrected and extended the path variable by " Charly25 HAMlab" for the skins,
+            // to use the same application data base directory as the rest of PowerSDR mRX PS Charly 25 HAMlab edition
+            // and avoid incompatibility with other PowerSDR versions
             string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-                    "\\FlexRadio Systems\\PowerSDR\\Skins\\";
+                    "\\FlexRadio Systems\\PowerSDR mRX PS Charly25 HAMlab\\Skins\\";
+            // DG8MG
 
             if (Directory.Exists(path + comboAppSkin.Text))
                 Skin.Restore(comboAppSkin.Text, path, console);
@@ -15126,8 +15771,16 @@ namespace PowerSDR
 
         private void btnSkinExport_Click(object sender, EventArgs e)
         {
+            // DG8MG
+            // string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
+            //        "\\FlexRadio Systems\\PowerSDR\\Skins\\";
+
+            // Corrected and extended the path variable by " Charly25 HAMlab" for the skins,
+            // to use the same application data base directory as the rest of PowerSDR mRX PS Charly 25 HAMlab edition
+            // and avoid incompatibility with other PowerSDR versions
             string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) +
-                    "\\FlexRadio Systems\\PowerSDR\\Skins\\";
+                    "\\FlexRadio Systems\\PowerSDR mRX PS Charly25 HAMlab\\Skins\\";
+            // DG8MG
 
             if (Directory.Exists(path + comboAppSkin.Text))
                 Skin.Save(comboAppSkin.Text, path, console);
@@ -16628,7 +17281,12 @@ namespace PowerSDR
             if (console.CurrentRegion != region)
                 console.CurrentRegion = region;
 
-            if (!console.initializing) DB.UpdateRegion(console.CurrentRegion);
+            // DG8MG
+            // Modified for Charly 25 / HAMlab edition
+            // if (!console.initializing) DB.UpdateRegion(console.CurrentRegion);
+            DB.UpdateRegion(console.CurrentRegion);
+            // DG8MG
+
             if (console.CurrentRegion == FRSRegion.UK)
             {
                 console.band_60m_register = 11;
@@ -17384,7 +18042,19 @@ namespace PowerSDR
 
         private void tpGeneralCalibration_Paint(object sender, PaintEventArgs e)
         {
-            panelRX2LevelCal.Visible = false;
+            
+            // DG8MG: Test me!
+            // Extension for Charly 25 / HAMlab edition
+            if (console.CurrentHPSDRModel == HPSDRModel.CHARLY25LC || console.CurrentHPSDRModel == HPSDRModel.HAMLAB)
+            {
+                panelRX2LevelCal.Visible = true;
+            }
+            else
+            {
+                panelRX2LevelCal.Visible = false;
+            }
+            // DG8MG
+
         }
 
         private void chkShowAGC_CheckedChanged(object sender, EventArgs e)
@@ -19510,7 +20180,6 @@ namespace PowerSDR
         {
             console.specRX.GetSpecRX(0).NormOneHzPan = chkDispNormalize.Checked;
         }
-
     }
 
     #region PADeviceInfo Helper Class

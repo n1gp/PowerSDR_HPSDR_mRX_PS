@@ -318,9 +318,14 @@ namespace PowerSDR
             set
             {
                 radio_volume = value;
-                if (console.CurrentModel == Model.HERMES || 
+
+                // DG8MG
+                // Extension for Charly 25 and HAMlab hardware
+                if (console.CurrentModel == Model.CHARLY25LC || console.CurrentModel == Model.HAMLAB || console.CurrentModel == Model.HERMES || 
                                             console.PennyLanePresent ||
                                            (console.PennyPresent && console.CWFWKeyer))
+                // DG8MG
+
                 {
                     JanusAudio.SetOutputPower((float)(value * dsp_adjust));
                 }
@@ -5805,7 +5810,16 @@ namespace PowerSDR
             rc = JanusAudio.StartAudio((int)sample_rate, (int)block_size, callback, sample_bits, no_send);
             if (rc != 0)
             {
-                //System.Console.WriteLine("JanusAudio.StartAudio failed w/ rc: " + rc);
+                // DG8MG: Test me!
+                System.Console.WriteLine("JanusAudio.StartAudio failed w/ rc: " + rc);
+
+                // Check if the Cancel button on the ChooseDevice form had been pressed
+                if ((rc == -2) && (console.CurrentHPSDRModel == HPSDRModel.CHARLY25LC || console.CurrentHPSDRModel == HPSDRModel.HAMLAB))
+                {
+                    return false;
+                }               
+                // DG8MG
+
                 if (rc == -101) // firmware version error; 
                 {
                     string fw_err = JanusAudio.getFWVersionErrorMsg();

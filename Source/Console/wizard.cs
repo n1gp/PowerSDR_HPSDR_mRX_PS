@@ -133,6 +133,12 @@ namespace PowerSDR
         private RadioButtonTS radGenModelOrion;
         private RadioButtonTS radGenModelANAN100B;
         private RadioButtonTS radGenModelANAN10E;
+        
+        // DG8MG
+        private RadioButtonTS radGenModelHAMlab;
+        private RadioButtonTS radGenModelCharly25LC;
+        // DG8MG
+
         private System.ComponentModel.Container components = null;
 
 		#endregion
@@ -209,6 +215,15 @@ namespace PowerSDR
                     radGenModelOrion.Checked = true;
                     break;
 
+                // DG8MG
+                case Model.CHARLY25LC:
+                    radGenModelCharly25LC.Checked = true;
+                    break;
+                case Model.HAMLAB:
+                    radGenModelHAMlab.Checked = true;
+                    break;
+                // DG8MG
+
             }
 
 			CurPage = Page.WELCOME;
@@ -244,6 +259,12 @@ namespace PowerSDR
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.grpModel = new System.Windows.Forms.GroupBoxTS();
+            
+            // DG8MG
+            this.radGenModelHAMlab = new System.Windows.Forms.RadioButtonTS();
+            this.radGenModelCharly25LC = new System.Windows.Forms.RadioButtonTS();
+            // DG8MG
+
             this.radGenModelANAN10E = new System.Windows.Forms.RadioButtonTS();
             this.radGenModelANAN100B = new System.Windows.Forms.RadioButtonTS();
             this.radGenModelOrion = new System.Windows.Forms.RadioButtonTS();
@@ -298,6 +319,7 @@ namespace PowerSDR
             this.comboBox10 = new System.Windows.Forms.ComboBoxTS();
             this.lblMessage1 = new System.Windows.Forms.LabelTS();
             this.lblCombo = new System.Windows.Forms.LabelTS();
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpModel.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -329,6 +351,8 @@ namespace PowerSDR
             // 
             // grpModel
             // 
+            this.grpModel.Controls.Add(this.radGenModelCharly25LC);
+            this.grpModel.Controls.Add(this.radGenModelHAMlab);
             this.grpModel.Controls.Add(this.radGenModelANAN10E);
             this.grpModel.Controls.Add(this.radGenModelANAN100B);
             this.grpModel.Controls.Add(this.radGenModelOrion);
@@ -348,6 +372,34 @@ namespace PowerSDR
             this.grpModel.TabStop = false;
             this.grpModel.Text = "Model";
             this.grpModel.Visible = false;
+            
+            // DG8MG
+            // 
+            // radGenModelCharly25LC
+            // 
+            this.radGenModelCharly25LC.AutoSize = true;
+            this.radGenModelCharly25LC.Image = null;
+            this.radGenModelCharly25LC.Location = new System.Drawing.Point(19, 155);
+            this.radGenModelCharly25LC.Name = "radGenModelCharly25LC";
+            this.radGenModelCharly25LC.Size = new System.Drawing.Size(99, 17);
+            this.radGenModelCharly25LC.TabIndex = 15;
+            this.radGenModelCharly25LC.Text = "CHARLY 25LC";
+            this.radGenModelCharly25LC.UseVisualStyleBackColor = true;
+            this.radGenModelCharly25LC.CheckedChanged += new System.EventHandler(this.radGenModelCharly25LC_CheckedChanged);
+            // 
+            // radGenModelHAMlab
+            // 
+            this.radGenModelHAMlab.AutoSize = true;
+            this.radGenModelHAMlab.Image = null;
+            this.radGenModelHAMlab.Location = new System.Drawing.Point(19, 171);
+            this.radGenModelHAMlab.Name = "radGenModelHAMlab";
+            this.radGenModelHAMlab.Size = new System.Drawing.Size(69, 17);
+            this.radGenModelHAMlab.TabIndex = 16;
+            this.radGenModelHAMlab.Text = "HAMlab";
+            this.radGenModelHAMlab.UseVisualStyleBackColor = true;
+            this.radGenModelHAMlab.CheckedChanged += new System.EventHandler(this.radGenModelHamlab_CheckedChanged);
+            // DG8MG
+            
             // 
             // radGenModelANAN10E
             // 
@@ -1435,7 +1487,7 @@ namespace PowerSDR
                     break;
 
                 case Page.HPSDR_HARDWARE_SELECT:
-                    this.Text = "PowerSDR Setup Wizard - HPSDR Hardwware Selection ";
+                    this.Text = "PowerSDR Setup Wizard - HPSDR Hardware Selection ";
                     btnFinished.Enabled = false;
                     btnNext.Enabled = true;
                     btnPrevious.Enabled = true;
@@ -1551,6 +1603,12 @@ namespace PowerSDR
                         case Model.ANAN100:
                         case Model.ANAN100D:
                         case Model.ANAN200D:
+
+                        // DG8MG
+                        case Model.CHARLY25LC:
+                        case Model.HAMLAB:
+                        // DG8MG
+
                             CurPage = Page.HPSDR_HARDWARE_SELECT;
                             btnNext.Focus();
                             break;
@@ -1609,8 +1667,8 @@ namespace PowerSDR
 					btnFinished.Focus();
 					break;
                 case Page.HPSDR_HARDWARE_SELECT:
-                    CurPage = Page.FINISHED;
-                  //  CurPage = Page.REGION;
+                    //CurPage = Page.FINISHED;
+                    CurPage = Page.REGION;
                     btnFinished.Focus();
                     break;
                 case Page.REGION:
@@ -1816,6 +1874,29 @@ namespace PowerSDR
                     console.SetupForm.AlexPresent = alex_present;
                     console.SetupForm.forceAudioSampleRate1("192000");
                     break;
+                
+                // DG8MG
+                case Model.CHARLY25LC:
+                    console.SetupForm.PenelopePresent = penelope_present;
+                    console.SetupForm.PennyLanePresent = pennylane_present;
+                    console.SetupForm.MercuryPresent = mercury_present;
+                    console.SetupForm.AlexPresent = alex_present;
+                    console.SetupForm.ExcaliburPresent = excalibur_present;
+                    console.SetupForm.radOzyUSB.Checked = radOzy.Checked;
+                    console.SetupForm.radMetis.Checked = radMetis.Checked;
+                    console.SetupForm.forceAudioSampleRate1("192000");
+                    break;
+                case Model.HAMLAB:
+                    console.SetupForm.PenelopePresent = penelope_present;
+                    console.SetupForm.PennyLanePresent = pennylane_present;
+                    console.SetupForm.MercuryPresent = mercury_present;
+                    console.SetupForm.AlexPresent = alex_present;
+                    console.SetupForm.ExcaliburPresent = excalibur_present;
+                    console.SetupForm.radOzyUSB.Checked = radOzy.Checked;
+                    console.SetupForm.radMetis.Checked = radMetis.Checked;
+                    console.SetupForm.forceAudioSampleRate1("192000");
+                    break;
+                // DG8MG
 
                 default:
                   //  console.SetupForm.XVTRPresent = xvtr_present;
@@ -1887,15 +1968,11 @@ namespace PowerSDR
 			}
             console.SetupForm.CurrentModel = model;
 
-          /*  if (region_index >= 0)
+            // DG8MG
+            if (region_index >= 0)
             {
-                FRSRegion CurrentRegion = FRSRegion.US;
-                if (comboBox10.Text == "")
-                {
-                    console.SetupForm.comboFRSRegion.Text = "United States";
-                    console.CurrentRegion = CurrentRegion;
-                    return;
-                }
+                FRSRegion CurrentRegion = FRSRegion.Europe;
+
                 switch (comboBox10.Text)
                 {
                     case "Australia":
@@ -1924,7 +2001,7 @@ namespace PowerSDR
                         break;
                     case "United States":
                         CurrentRegion = FRSRegion.US;
-                        Display.Init();
+                        console.Extended = false;
                         break;
                     case "Norway":
                         CurrentRegion = FRSRegion.Norway;
@@ -1972,12 +2049,18 @@ namespace PowerSDR
                 }
                 console.SetupForm.comboFRSRegion.Text = comboBox10.Text;
                 console.CurrentRegion = CurrentRegion;
-            } */
-            
-            console.SetupForm.comboFRSRegion.Text = "United States";
-            //console.CurrentRegion = FRSRegion.US;
+            }
+            else
+            {
+                console.SetupForm.comboFRSRegion.Text = "Europe";
+                console.CurrentRegion = FRSRegion.Europe;
+            }
 
-			ArrayList a = new ArrayList();
+            //console.SetupForm.comboFRSRegion.Text = "United States";
+            //console.CurrentRegion = FRSRegion.US;
+            // DG8MG
+
+            ArrayList a = new ArrayList();
 			a.Add("SetupWizard/1");
 			DB.SaveVars("State", ref a);
 
@@ -2321,7 +2404,58 @@ namespace PowerSDR
                 radOzy.Enabled = false;
             }
         }
-        
+
+        // DG8MG
+        private void radGenModelCharly25LC_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radGenModelCharly25LC.Checked)
+            {
+                model = Model.CHARLY25LC;
+                pictureBox1.Image = null;
+                pictureBox1.Visible = false;
+                //pictureBox1.Image = new Bitmap(GetResource("PowerSDR.images.hpsdr.jpg"));
+                chkAlex.Visible = false;
+                chkAlex.Checked = false;
+                chkExcalibur.Visible = false;
+                chkExcalibur.Checked = false;
+                chkMercury.Visible = false;
+                chkMercury.Checked = false;
+                chkPennyLane.Visible = false;
+                chkPennyLane.Checked = false;
+                chkPenny.Visible = false;
+                chkPenny.Checked = true;
+                radOzy.Visible = false;
+                radMetis.Enabled = true;
+                radMetis.Text = "RedPitaya";
+            }
+        }
+
+        private void radGenModelHamlab_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (radGenModelHAMlab.Checked)
+            {
+                model = Model.HAMLAB;
+                pictureBox1.Image = null;
+                pictureBox1.Visible = false;
+                //pictureBox1.Image = new Bitmap(GetResource("PowerSDR.images.hpsdr.jpg"));
+                chkAlex.Visible = false;
+                chkAlex.Checked = false;
+                chkExcalibur.Visible = false;
+                chkExcalibur.Checked = false;
+                chkMercury.Visible = false;
+                chkMercury.Checked = false;
+                chkPennyLane.Visible = false;
+                chkPennyLane.Checked = false;
+                chkPenny.Visible = false;
+                chkPenny.Checked = true;
+                radOzy.Visible = false;
+                radMetis.Enabled = true;
+                radMetis.Text = "RedPitaya";
+            }
+        }
+        // DG8MG
+  
+
         private void chkMercury_CheckedChanged(object sender, System.EventArgs e)
         {
             mercury_present = chkMercury.Checked;
@@ -2349,6 +2483,5 @@ namespace PowerSDR
             excalibur_present = chkExcalibur.Checked;
         }
         #endregion
-
     }
 }
